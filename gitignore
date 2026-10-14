@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Model artifacts (usually large; commit separately only if intentionally required)
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# Local datasets and generated prediction files
+data/raw/
+data/interim/
+data/processed/
+predictions/
+*.csv
+
+# Keep selected report outputs if you want them in the repository.
+# Uncomment the following line if all reports should be ignored:
+# reports/
+
+# OS files
+.DS_Store
+Thumbs.db

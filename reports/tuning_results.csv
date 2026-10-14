@@ -1,0 +1,4 @@
+model,best_cv_f1,best_params
+LogisticRegression,0.5228259237593498,{'classifier__C': 1}
+RandomForest,0.5131850386621111,"{'classifier__n_estimators': 100, 'classifier__min_samples_split': 10, 'classifier__min_samples_leaf': 6, 'classifier__max_features': 0.8, 'classifier__max_depth': 20, 'classifier__class_weight': 'balanced'}"
+XGBoost,0.5648886982220315,"{'classifier__subsample': 0.8, 'classifier__scale_pos_weight': 3, 'classifier__n_estimators': 200, 'classifier__max_depth': 2, 'classifier__learning_rate': 0.1, 'classifier__colsample_bytree': 0.8}"
